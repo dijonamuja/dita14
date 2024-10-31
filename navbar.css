@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#vertical-menu{
+    list-style-type: none;
+    width: 25%;
+    background-color: aliceblue;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+#vertical-menu li a{
+
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#vertical-menu li a.active{
+    background-color: blue;
+    color: blanchedalmond;
+}
+
+#vertical-menu li a.hover:not .active{
+    background-color: aliceblue;
+    color: antiquewhite;
+}
